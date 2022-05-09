@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:esbuild": "ts-node build.ts",
+    "build:types": "tsc --declaration --emitDeclarationOnly --declarationDir './dist'"
   },
   "keywords": [],
   "author": "",
